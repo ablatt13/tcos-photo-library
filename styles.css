@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --dark-green: #609673;
+    --mid-green: #9bb89a;
+    --dark-purple: #2f3470;
+    --mid-purple: #4d4887;
+    --word-purple: #8299a8; 
+    --word-green: #8bbb90; 
+    --word-orange: #f7b559; 
+  }
+  
+  body {
+    background: whitesmoke;
+    color: black;
+    font-family: Mulish, sans-serif;
+    /*Permanent Marker, Swanky and Moo Moo, Gloria Hallelujah*/
+  }
+
+.nav {
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    background: #222324; 
+    height: 10vh; 
+    padding: 15px; 
+    width: 100vw; 
+    z-index: 999;
+}
+
+.nav-list {
+    text-align: right;
+    justify-content: right;;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+li{
+    padding: 5px; 
+    margin: 5px; 
+}
+
+.owls {
+    position: absolute; 
+    bottom: 0; 
+    align-items: center;
+    justify-content: center;
+}
+
+.navigate {
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 1rem; 
+    color: var(--word-green); 
+    width: 100%;
+}
+
+.navigate:hover {
+    color: var(--word-orange); 
+}
+
+.pic {
+    width: 30vw;
+    max-height: 320px;
+}
+
+.photos {
+    flex-wrap: wrap; 
+    width: 100vw;
+}
+
+.banner{
+    position: absolute;
+    top: 10vh; 
+    background: var(--dark-purple);
+    width: 100vw; 
+    margin: 0; 
+    padding: 0; 
+    left: 0; 
+    color: whitesmoke;
+}
