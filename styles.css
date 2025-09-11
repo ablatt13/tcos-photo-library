@@ -130,8 +130,8 @@ section {
 }
 
 figure {
-    height: 320px;
-    padding: 5px 5px 2rem;
+    
+    padding: 5px;
     background: whitesmoke;
     margin: 10px;
     justify-content: center;
@@ -143,6 +143,7 @@ figure {
 figure img {
     justify-content: center;
     align-items: center;
+    height: 300px;
 }
 
 
