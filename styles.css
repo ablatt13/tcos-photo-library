@@ -119,15 +119,39 @@ section {
     justify-content: space-around;
 }
 
+.groupPics {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 0; 
+    height: 100%;
+    justify-content: space-around;
+}
+
 figure {
     height: 320px;
     padding: 5px 5px 2rem;
     background: whitesmoke;
     margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
 }
+
+figure img {
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 figcaption {
     color: var(--dark-night);
     text-align: center;
-    font-family: Gloria Hallelujah, sans-serif;
+    /*font-family: 'Swanky and Moo Moo', sans-serif;
+    font-size: 1.3rem;*/
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 1.1rem;
 }
