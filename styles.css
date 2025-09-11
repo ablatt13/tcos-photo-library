@@ -13,11 +13,12 @@
     --word-green: #8bbb90;
     --word-orange: #f7b559;
     --dark-night: #222324;
+    --light-sky: #f7e1c3ff;
 }
 
 body {
     background: var(--dark-night);
-    color: whitesmoke;
+    color: var(--light-sky);
     font-family: Mulish, sans-serif;
     padding: 0px;
     margin: 0;
@@ -29,7 +30,7 @@ body {
     left: 0;
     top: 0;
     background: var(--dark-night);
-    height: 10vh;
+    height: 70px;
     width: 100%;
     z-index: 999;
     border-bottom: 5px solid var(--mid-purple);
@@ -71,37 +72,62 @@ li {
 }
 
 section {
-    border: 5px solid blue;
+    height: 100%;
     left: 0;
 }
+
+
+
+
+.banner {
+    background-color: var(--dark-purple);
+    color: var(--light-sky); 
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    position: sticky;
+    top: 70px;
+    z-index: 995;
+    align-items: center;
+    margin: 0; 
+  }
+  
+  .banner h1 {
+    font-size: min(5vw, 1.6em);
+    margin: 0; 
+  }
+
+/*.banner {
+    position: absolute;
+    
+    left: 0;
+    height: 3rem;
+    padding-left: 2rem;
+}*/
 
 .photos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    position: relative;
+    top: 70px;
     width: 100%;
+    margin: 0; 
     height: 100%;
-    border: 5px solid purple;
+    justify-content: space-around;
 }
 
-.photos img {
+figure {
     height: 320px;
-    position: relative;
-    top: calc(10vh + 3rem);
-    border: 1px solid #d1d1d1;
-    padding: 5px;
+    padding: 5px 5px 2rem;
     background: whitesmoke;
     margin: 10px;
 }
 
-.banner {
-    position: absolute;
-    top: 10vh;
-    background: var(--dark-purple);
-    width: 100%;
-    left: 0;
-    color: whitesmoke;
-    height: 3rem;
-    font-family: Gloria Hallelujah, serif;
-    padding-left: 2rem;
+figcaption {
+    color: var(--dark-night);
+    text-align: center;
+    font-family: Gloria Hallelujah, sans-serif;
 }
