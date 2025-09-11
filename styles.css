@@ -1,36 +1,36 @@
 * {
     box-sizing: border-box;
-    padding: 0; 
-    margin: 0; 
-  }
-  
-  :root {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
     --dark-green: #609673;
     --mid-green: #9bb89a;
     --dark-purple: #2f3470;
     --mid-purple: #4d4887;
-    --word-purple: #8299a8; 
-    --word-green: #8bbb90; 
-    --word-orange: #f7b559; 
-    --dark-night: #222324; 
-  }
-  
-  body {
-    background: var(--dark-night); 
+    --word-purple: #8299a8;
+    --word-green: #8bbb90;
+    --word-orange: #f7b559;
+    --dark-night: #222324;
+}
+
+body {
+    background: var(--dark-night);
     color: whitesmoke;
     font-family: Mulish, sans-serif;
-    padding: 0px; 
-    margin: 0; 
+    padding: 0px;
+    margin: 0;
     /*Permanent Marker, Swanky and Moo Moo, Gloria Hallelujah*/
-  }
+}
 
 .nav {
-    position: fixed; 
-    left: 0; 
-    top: 0; 
-    background: var(--dark-night); 
-    height: 10vh; 
-    width: 100%; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--dark-night);
+    height: 10vh;
+    width: 100%;
     z-index: 999;
     border-bottom: 5px solid var(--mid-purple);
 }
@@ -40,68 +40,68 @@
     justify-content: right;
     align-items: center;
     flex-wrap: wrap;
-    list-style-type: none; 
-    display: flex; 
-    height: 100%; 
+    list-style-type: none;
+    display: flex;
+    height: 100%;
 }
 
 li {
-    padding: 5px; 
-    margin: 5px; 
+    padding: 5px;
+    margin: 5px;
 }
 
 .owls {
-    position: absolute; 
-    bottom: 0; 
+    position: absolute;
+    bottom: 0;
     align-items: center;
     justify-content: center;
     height: 100%;
 }
 
 .navigate {
-    text-decoration: none; 
-    font-weight: bold; 
-    font-size: 1rem; 
-    color: var(--word-green); 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--word-green);
     width: 100%;
 }
 
 .navigate:hover {
-    color: var(--word-orange); 
+    color: var(--word-orange);
 }
 
 section {
-    border: 5px solid blue; 
-    left: 0; 
-}
-
-.pic {
-    height: 320px;
-    position: relative;
-    top: calc(10vh + 3rem); 
-    border: 1px solid #d1d1d1; 
-    padding: 5px; 
-    background: whitesmoke;
-    margin: 10px; 
+    border: 5px solid blue;
+    left: 0;
 }
 
 .photos {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     height: 100%;
-    border: 5px solid purple; 
+    border: 5px solid purple;
 }
 
-.banner{
-    position: absolute;
-    top: 10vh; 
-    background: var(--dark-purple);
-    width: 100%; 
-    left: 0; 
-    color: whitesmoke;
-    height: 3rem; 
-    font-family: Gloria Hallelujah, serif; 
+.photos img {
+    height: 320px;
+    position: relative;
+    top: calc(10vh + 3rem);
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    background: whitesmoke;
+    margin: 10px;
+}
 
+.banner {
+    position: absolute;
+    top: 10vh;
+    background: var(--dark-purple);
+    width: 100%;
+    left: 0;
+    color: whitesmoke;
+    height: 3rem;
+    font-family: Gloria Hallelujah, serif;
+    padding-left: 2rem;
 }
