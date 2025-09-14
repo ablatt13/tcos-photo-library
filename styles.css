@@ -7,13 +7,15 @@
   /* Styles for smaller screens */
 @media screen and (max-width: 768px) {
     figure {
-        max-width: calc(100% - 50px);
+        /*max-width: calc(100% - 50px);*/
+        max-width: 90vw;
     }
+    
     figure img {
+        max-width: 85vw;
         object-fit: contain;
     }
 
-    
   }
 
   @media screen and (max-width: 500px) {
