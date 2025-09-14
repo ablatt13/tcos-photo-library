@@ -1,3 +1,20 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  /* Styles for smaller screens */
+@media screen and (max-width: 768px) {
+    figure {
+        max-width: calc(100% - 50px);
+    }
+
+    figure img {
+        object-fit: contain;
+    }
+  }
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -139,7 +156,7 @@ figure {
 }
 
 figure img {
-    height: 300px;
+    max-height: 300px; /*Changed from height*/
     justify-content: center;
     align-items: center;
 }
