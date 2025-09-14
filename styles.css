@@ -9,9 +9,35 @@
     figure {
         max-width: calc(100% - 50px);
     }
-
     figure img {
         object-fit: contain;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    .nav-list {
+        width: 80%; 
+      }
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .container {
+      width: 750px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  }
+  
+  /* Styles for desktops */
+  @media screen and (min-width: 1024px) {
+    .container {
+      width: 960px;
     }
   }
 
@@ -54,18 +80,22 @@ body {
 }
 
 .nav-list {
+   height: 100%;
     text-align: right;
     justify-content: right;
     align-items: center;
-    flex-wrap: wrap;
     list-style-type: none;
     display: flex;
-    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: right; 
 }
 
-li {
-    padding: 5px;
-    margin: 5px;
+.nav-list li {
+    margin: 0 0.8rem;
+    gap: 1rem;
+    padding: 2px;
+    float: right; 
 }
 
 .owls {
@@ -149,7 +179,7 @@ section {
 figure {
     padding: 5px;
     background: whitesmoke;
-    margin: 10px;
+    margin: 10px 5px;
     justify-content: center;
     align-items: center;
     text-align: center;
