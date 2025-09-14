@@ -168,7 +168,7 @@ section {
     justify-content: space-around;
 }
 
-.groupPics {
+/*.groupPics {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -176,6 +176,12 @@ section {
     margin: 0; 
     height: 100%;
     justify-content: space-around;
+}*/
+
+.emptyblock {
+    height: 20px; 
+    width: 100%;
+    border: 2px solid red; 
 }
 
 figure {
@@ -193,8 +199,6 @@ figure img {
     align-items: center;
 }
 
-
-
 figcaption {
     color: var(--dark-night);
     text-align: center;
@@ -202,4 +206,30 @@ figcaption {
     font-size: 1.3rem;*/
     font-family: 'Permanent Marker', sans-serif;
     font-size: 1.1rem;
+}
+
+#freshman, #sophomore, #junior, #senior{
+    position: relative;
+    top: -108px; 
+    width: 100%; 
+  }
+
+.threedeg {
+    transform: rotate(3deg);
+}
+
+.tenedeg {
+    transform: rotate(10deg);
+}
+
+.negthreedeg {
+    transform: rotate(-3deg);
+}
+
+.negfivedeg {
+    transform: rotate(-5deg);
+}
+
+.sevdeg {
+    transform: rotate(7deg);
 }
