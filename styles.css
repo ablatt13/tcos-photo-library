@@ -208,6 +208,10 @@ figcaption {
     font-size: 1.1rem;
 }
 
+.aspen {
+    background: var(--light-sky);
+}
+
 #freshman, #sophomore, #junior, #senior{
     position: relative;
     top: -103px; 
