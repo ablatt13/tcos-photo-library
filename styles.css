@@ -52,8 +52,10 @@
 :root {
     --dark-green: #609673;
     --mid-green: #9bb89a;
+    --light-green: #d1f2d0;
     --dark-purple: #2f3470;
     --mid-purple: #4d4887;
+    --light-purple: #b0abeb;
     --word-purple: #8299a8;
     --word-green: #8bbb90;
     --word-orange: #f7b559;
@@ -210,6 +212,14 @@ figcaption {
 
 .aspen {
     background: var(--light-sky);
+}
+
+.maggie {
+    background: var(--light-purple);
+}
+
+.kay {
+    background: var(--light-green);
 }
 
 #freshman, #sophomore, #junior, #senior{
