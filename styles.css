@@ -65,7 +65,7 @@
 
 body {
     background: var(--dark-night);
-    color: var(--light-sky);
+    color: whitesmoke;
     font-family: Mulish, sans-serif;
     padding: 0px;
     margin: 0;
@@ -227,6 +227,21 @@ figcaption {
     top: -103px; 
     width: 100%; 
   }
+
+.card .aspen {
+    background: transparent;
+    color: var(--light-sky);
+}
+.card .maggie {
+    background: transparent;
+    color: var(--light-purple);
+}
+.card .kay {
+    background: transparent;
+    color: var(--light-green);
+}
+
+
 
 /*.threedeg {
     transform: rotate(3deg);
