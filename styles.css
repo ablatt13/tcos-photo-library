@@ -69,7 +69,7 @@ body {
     font-family: Mulish, sans-serif;
     padding: 0px;
     margin: 0;
-    /*Permanent Marker, Swanky and Moo Moo, Gloria Hallelujah*/
+    /*Permanent Marker, Swanky and Moo Moo, Gloria Hallelujah, Playpen Sans*/
 }
 
 .nav {
@@ -204,9 +204,9 @@ figure img {
 figcaption {
     color: var(--dark-night);
     text-align: center;
-    /*font-family: 'Swanky and Moo Moo', sans-serif;
-    font-size: 1.3rem;*/
-    font-family: 'Permanent Marker', sans-serif;
+    /*Swanky and Moo Moo, Indie Flower, Permanent Marker, Playpen Sans*/
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 400;
     font-size: 1.1rem;
 }
 
