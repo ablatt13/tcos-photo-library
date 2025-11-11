@@ -228,6 +228,11 @@ figcaption {
     width: 100%; 
   }
 
+.card {
+    width: 90%;
+    margin-top: 5px; 
+}
+
 .card .aspen {
     background: transparent;
     color: var(--light-sky);
