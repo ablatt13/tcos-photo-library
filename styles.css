@@ -183,7 +183,7 @@ section {
 .emptyblock {
     height: 20px; 
     width: 100%;
-    border: 2px solid red; 
+    /* border: 2px solid red; */
 }
 
 figure {
@@ -248,6 +248,12 @@ figcaption {
 
 .card p {
     margin: 5px 0px; 
+}
+
+.final {
+    margin: 70px auto 20px; /* auto centers it */
+    width: 90%;
+    /* padding: 60px 0px 20px; */
 }
 
 
